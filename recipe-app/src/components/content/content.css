@@ -2,7 +2,6 @@
     margin: 20px 0px;
     display: flex;
     justify-content: center;
-    /* align-items: ; */
     gap: 15px;
 }
 
@@ -10,6 +9,7 @@
     padding: 10px;
     border-radius: 6px;
     flex-grow: 1;
+    min-width: 300px;
 }
 
 .form-container >form > button{
