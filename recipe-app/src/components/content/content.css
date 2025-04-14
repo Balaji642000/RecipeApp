@@ -1,0 +1,34 @@
+.form-container > form{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    /* align-items: ; */
+    gap: 15px;
+}
+
+.form-container >form > input{
+    padding: 10px;
+    border-radius: 6px;
+    flex-grow: 1;
+}
+
+.form-container >form > button{
+    border: none;
+    background-color: burlywood;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: 16px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.form-container >form > button::before{
+    content: "+";
+    font-size: 30px;
+}
